@@ -7,7 +7,7 @@ public class DataTypes {
         long s = 0;
         // below is a "foreach" loop which iterates through numbers
         for (long x : numbers) {
-            s += x;
+            s += x + 1;
         }
         return s;
     }
